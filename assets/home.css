@@ -72,10 +72,12 @@
     font-weight: 600;
 }
 
-.human{
+.human {
     position: absolute;
     top: 28px;
     left: 28px;
+    width: 28px;
+    height: 28px;
 }
 
 .arrow{
