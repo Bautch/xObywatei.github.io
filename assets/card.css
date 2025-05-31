@@ -458,11 +458,11 @@ body .bottom_bar{
 }
 
 .card_1{
-    background-image: url('images/cardbg2.svg');
+    background-image: url('../images/cardbg2.svg');
 }
 
 .card_2{
-    background-image: url('images/cardbg1.svg');
+    background-image: url('../images/cardbg1.svg');
 }
 
 .page_other .confirm_title{
