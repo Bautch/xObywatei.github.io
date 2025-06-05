@@ -168,15 +168,21 @@ body .bottom_bar{
     background-repeat: no-repeat;
 }
 
-.id_own_image {
-    width: 88%;
-    height: auto; /* Keeps aspect ratio */
-    display: block;
-    border-radius: 15px;
+.id_own_image{
+    pointer-events: none;
     filter: grayscale(1);
     box-shadow: 0px 0px 5px white;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 5%;
+    left: 7.5%;
+    width: 35%;
+    border-radius: 15px;
+    height: 42%;
+    background-color: white;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
 
 .bottom_update{
